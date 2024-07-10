@@ -6,8 +6,9 @@ function Header() {
       <>
      
         <header>
-        <img class ='logo' src ='src/assets/menu.png'></img>
-          <h2>Discover Delicious Recipes</h2>
+       
+        <h1>Recipe App</h1>
+        <h3>Discover Delicious Recipes</h3>
         </header>
         </>
     )
