@@ -1,0 +1,142 @@
+.logo{
+  height: 300px;
+  width:200px;
+}
+header {
+  padding: 5px;
+  text-align: center;
+  background:url("https://i.pinimg.com/736x/ef/a8/da/efa8dad53b1c3f275073700933de39b0.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+ 
+}
+
+header h2 {
+ font-weight: bolder;
+  margin-top: -20px;
+  font-style: italic;
+ color: #F0f3FA;
+  
+}
+
+.App {
+  min-height: 100vh;
+  /* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);; */
+}
+
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.search-bar {
+  width: 50%;
+  border: 2px solid #186049 !important;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #186049;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 6px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.recipe {
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(71, 71, 71);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-image: linear-gradient(to top, #F0f3FA 0% , #F0f3FA); 
+  align-items: center;
+  min-width: 40%;
+}
+
+.image {
+  border-radius: 10px;
+  border: 1px solid rgb(139, 136, 136);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer {
+  padding: 5px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #186049;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.icon {
+  font-size: 50px;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.icon a  {
+  color: whitesmoke;
+}
+
+
+ .recipe a{
+  padding: 10px 20px;
+  background-color:#186049;
+   /* #4CAF50; Green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+
